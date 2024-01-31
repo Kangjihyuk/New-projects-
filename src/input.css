@@ -1,0 +1,62 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+header.active{
+    @apply opacity-95 bg-white;
+}
+
+#navbar.active{
+    @apply mt-[28rem] mx-[13%];
+}
+
+.navbar{
+    @apply font-semibold text-sm tracking-wider flex justify-center mt-4 lg:mt-0 w-full h-4 p-5 items-center rounded-md shadow-md hover:text-jeruk; 
+}
+
+#search-icons.active{
+    @apply mt-4 duration-500 transition-all ease-linear;
+}
+
+.text-about{
+    @apply mt-5 rounded-full font-bold bg-jeruk;
+}
+
+.button{
+    @apply bg-jeruk py-4 px-3 text-white font-semibold rounded-md shadow-md shadow-jeruk hover:bg-teal-500 hover:shadow-teal-500 hover:text-black duration-500 transition-all;
+}
+
+.box{
+    @apply bg-white w-[70%] p-4 shadow-md rounded-md mx-auto hover:brightness-90 md:w-[100%] md:gap-10 lg:w-full transition-all duration-300;
+}
+
+.box-hero{
+    @apply border-jeruk border p-2 rounded-full mb-3 hover:bg-jeruk hover:text-white active:brightness-75 duration-300 transition-all;
+}
+
+.img-slider{
+    @apply hover:brightness-90 rounded-lg w-full;
+}
+
+.year{
+    @apply border-2 border-dotted rounded-lg border-jeruk p-7;
+}
+.parent{
+    @apply p-2 bg-slate-50 rounded-lg shadow-lg flex;
+}
+
+.foter{
+    @apply text-justify mt-4 text-slate-500 hover:text-jeruk;
+}
+
+.foter-content{
+    @apply p-2 rounded-full bg-jeruk text-white text-lg hover:bg-teal-400 transition-all duration-300 active:brightness-105;
+}
+
+.back{
+    @apply text-slate-500 hover:text-jeruk text-lg;
+}

@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="src/output.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+
+    <header class="fixed w-full z-[9999]">
+        <div class="container flex justify-between items-center relative p-3 lg:w-full">
+            <div>
+                <h1 class="text-lg font-bold">Education</h1>
+            </div>
+            <div class="hamburger lg:hidden">
+                <p><i class='bx bx-menu text-2xl'></i></p>
+            </div>
+            <nav id="navbar" class="absolute w-80 ml-[20%] -mt-[59rem] bg-transparent backdrop-blur-3xl p-5 rounded-md shadow-xl transition-all ease-in-out duration-300 lg:mt-1 lg:text-lg lg:static lg:flex lg:w-full lg:bg-none lg:shadow-none lg:h-4 lg:justify-end  lg:inset-inline-end">
+                <ul class="block lg:flex lg:gap-3 lg:justify-center lg:items-center">
+                    <li><a href="#home" class="navbar">Home</a></li>
+                    <li><a href="#about" class="navbar">About</a></li>
+                    <li><a href="#courses" class="navbar">Courses</a></li>
+                    <li><a href="#events" class="navbar">Events</a></li>
+                    <li><a href="#news" class="navbar">News</a></li>
+                    <li><a href="#contact-us" class="navbar">Contact</a></li>
+                    <li class="navbar bg-jeruk text-white hover:text-black"><i class='bx search-icon bx-search-alt-2 text-xl'></i></li>
+                </ul>
+            </nav>
+        </div>
+        </div>
+        <div class="flex justify-center">
+            <input type="search" name="search" placeholder="search" id="search-icons" class="bg-jeruk absolute w-96 px-4 py-2 text-white rounded-md shadow-sm mt-[10000rem] focus:outline-none focus:border-sky-500 focus:ring-sky-500 focus:ring-1 sm:text-sm placeholder:text-center placeholder:uppercase placeholder:text-black placeholder:font-semibold placeholder:tracking-widest lg:max-w-full lg:py-2 lg:w-[90%] focus:bg-white focus:text-black duration-200 transition-all">
+        </div>
+    </header>
+    
+    <section id="home" class="flex items-center justify-center h-[100vh]">
+        <div class="container relative flex flex-wrap mt-32 justify-center lg:items-center lg:justify-center max-md:mt-44 max-lg:mt-60">
+            <div class="lg:w-1/2">
+                <h1 class="font-bold text-3xl lg:text-6xl xl:text-7xl mb-5 tracking-wide">Start Learning With Us Now!</h1>
+                <p class="mb-4 text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde enim minus itaque error voluptatem ut vel reiciendis amet. Quis quas aliquam est similique enim quos nihil sit.!</p>
+                <div class="relative">
+                <input type="email" name="email" id="email" placeholder="EMAIL ADDRESS" class="bg-white w-full shadow-md py-2 px-4 rounded-md placeholder:text-base placeholder:text-black placeholder:font-semibold placeholder:tracking-wide outline-none focus:ring-1 focus:ring-teal-300">
+                <a href="#" class="absolute right-0 bg-jeruk py-2 px-4 rounded-md text-white font-semibold hover:bg-teal-500 hover:text-black active:bg-opacity duration-300 ease-in transition-all">subscribe now</a>
+                </div>
+            </div>
+            <div class="lg:w-1/2 mt-8">
+                <img src="img/foto.png" alt="online" width="80%" class="lg:ml-8 lg:mb-4">
+            </div>
+        </div>
+    </section>
+ 
+    <section id="about" class="mt-40 lg:mt-50">
+        <div class="container flex flex-wrap lg:justify-between ">
+            <div class="relative flex justify-center mx-auto lg:mx-0 items-center lg:w-1/2">
+                <img src="img/foto1.jpg" alt="hero" class="w-96 h-96 bg-no-repeat rounded-[50%]">
+                <div class="absolute p-7 bg-white rounded-[50%] border-2 border-jeruk border-dotted -mr-10 mb-7 right-0 bottom-0 lg:mr-12 lg:mb-8">
+                    <h1 class="text-jeruk font-bold text-center text-4xl">50</h1>
+                    <p class="font-bold text-2xl text-center">Years Of</p>
+                    <p class="font-bold text-2xl text-center">Experience</p>
+                </div>
+            </div>
+            <div class="mt-20 lg:w-1/2 lg:mt-0">
+                <p class="text-center text-jeruk font-semibold lg:text-start">About Us</p>
+                <h1 class="mt-5 font-bold text-2xl lg:text-5xl lg:mt-2">Welcome To online Class Educato</h1>
+                <p class="mt-5 text-slate-500 text-justify lg:mt-2 lg:text-left">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, ad labore tenetur rem impedit vitae deserunt hic adipisci fugit, iusto necessitatibus pariatur sequi doloribus quisquam.</p>
+                <p class="font-semibold text-justify lg:text-left"><i class='bx bx-check text-about'></i> Lorem ipsum dolor sit amet, consectetur adipisicing elit.Inventore minus dicta optio dolore molestiae sed?</p>
+                <p class="font-semibold text-justify lg:text-left"><i class='bx bx-check text-about'></i> Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum labore enim nulla dicta commodi earum?</p>
+                <p class="mt-5"><a href="#" class="button">Read More</a></p>
+            </div>
+        </div>
+    </section>
+
+    <section id="watch Us" class="mt-40 lg:mt-30">
+        <div class="container">
+            <div class="text-center">
+                <h1 class="text-jeruk font-semibold text-xl lg:text-3xl mb-3">Watch Us</h1>
+                <p class="text-black text-2xl mb-4 lg:text-4xl font-bold">Start Growing With Community</p>
+            </div>
+            <div class="flex items-center justify-center relative">
+                <img src="img/foto3.jpg" alt="online-courses" class="lg:w-[60%] hover:scale-95 duration-500 transition-all brightness-50 hover:brightness-100">
+                <div class="absolute border-2 border-dotted rounded-full p-4">
+                    <span class="p-3 bg-white rounded-full text-4xl flex items-center justify-center"><a href="#"><i class='bx bx-play text-jeruk'></i></a></span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="servises" class="mt-40 lg:mt-32">
+        <div class="container flex flex-wrap lg:grid lg:grid-cols-2">
+            <div class="lg:mt-[30%]">
+                <p class="text-jeruk mb-3 font-semibold text-center lg:text-start lg:text-2xl">Services</p>
+                <h1 class="text-2xl font-bold mb-4 lg:text-4xl">What We Provide To You</h1>
+                <p class="text-slate-600 mb-5 w-[70%]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit praesentium nobis porro quisquam, incidunt voluptates nesciunt in error aut? Quasi.</p>
+                <p><a href="#" class="button">view all services</a></p>
+            </div>
+            <div>
+                <div class="mt-20 grid md:grid-cols-2 gap-8 lg:gap-3 lg:grid-cols-3 place-content-center">
+                    <div class="box">
+                        <p class="text-2xl"><i class='bx bx-child box-hero'></i></p>
+                        <h2 class="font-semibold mb-3 truncate">Skilled Lecturers</h2>
+                        <p class="text-justify text-slate-600">Lorem ipsum dolor sit amet consectetur adipisicing elit.<span class="max-md:hidden">Est ea, blanditiis nesciunt non nam sint.</span></p>
+                    </div>
+                    <div class="box">
+                        <p class="text-2xl"><i class='bx bxs-book-open box-hero'></i></p>
+                        <h2 class="font-semibold mb-3 truncate">Scholarship</h2>
+                        <p class="text-justify text-slate-600">Lorem ipsum dolor sit amet consectetur adipisicing elit.<span class="max-md:hidden">Est ea, blanditiis nesciunt non nam sint.</span></p>
+                    </div>
+                    <div class="box">
+                        <p class="text-2xl"><i class='bx bx-book-bookmark box-hero' ></i></p>
+                        <h2 class="font-semibold mb-3 truncate">Book library</h2>
+                        <p class="text-justify text-slate-600">Lorem ipsum dolor sit amet consectetur adipisicing elit.<span class="max-md:hidden">Est ea, blanditiis nesciunt non nam sint.</span></p>
+                    </div>
+                    <div class="box">
+                        <p class="text-2xl"><i class='bx bx-book-content box-hero'></i></p>
+                        <h2 class="font-semibold mb-3 truncate">Online Classes</h2>
+                        <p class="text-justify text-slate-600">Lorem ipsum dolor sit amet consectetur adipisicing elit.<span class="max-md:hidden">Est ea, blanditiis nesciunt non nam sint.</span></p>
+                    </div>
+                    <div class="box">
+                        <p class="text-2xl"><i class='bx bxs-book-reader box-hero'></i></p>
+                        <h2 class="font-semibold mb-3 truncate">Home Project</h2>
+                        <p class="text-justify text-slate-600">Lorem ipsum dolor sit amet consectetur adipisicing elit.<span class="max-md:hidden">Est ea, blanditiis nesciunt non nam sint.</span></p>
+                    </div>
+                    <div class="box">
+                        <p class="text-2xl"><i class='bx bxs-book-add box-hero'></i></p>
+                        <h2 class="font-semibold mb-3 truncate">24x7 Support</h2>
+                        <p class="text-justify text-slate-600">Lorem ipsum dolor sit amet consectetur adipisicing elit.<span class="max-md:hidden">Est ea, blanditiis nesciunt non nam sint.</span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="courses" class="mt-40 lg:mt-32"> 
+        <div class="container">
+            <div>
+                <h1 class="text-jeruk text-center font-semibold">Best Courses</h1>
+                <p class="text-2xl text-center font-bold mt-2">Featured Courses</p>
+            </div>
+            <div class="grid md:grid-cols-2 md:gap-4 lg:grid-cols-4">
+                <div class="mt-3 relative">
+                    <img src="img/foto4.jpg" alt="Courses1" class="brightness-50 img-slider">
+                    <div class="absolute bottom-0 ml-5 mb-3">
+                        <p class="text-white font-semibold uppercase">3 years</p>
+                        <p class="text-white font-medium">Civil Engeering</p>
+                    </div>
+                </div>
+                <div class="mt-3 relative">
+                    <img src="img/foto5.jpg" alt="Courses1" class="brightness-50 img-slider">
+                    <div class="absolute bottom-0 ml-5 mb-3">
+                        <p class="text-white font-semibold uppercase">2 years</p>
+                        <p class="text-white font-medium">Chemmical Engineering</p>
+                    </div>
+                </div>
+                <div class="mt-3 relative">
+                    <img src="img/foto6.jpg" alt="Courses1" class="brightness-50 img-slider">
+                    <div class="absolute bottom-0 ml-5 mb-3">
+                        <p class="text-white font-semibold uppercase">3 years</p>
+                        <p class="text-white font-medium">Medical</p>
+                    </div>
+                </div>
+                <div class="mt-3 relative">
+                    <img src="img/foto7.jpg" alt="Courses1" class="brightness-50 img-slider">
+                    <div class="absolute bottom-0 ml-5 mb-3">
+                        <p class="text-white font-semibold uppercase">4 years</p>
+                        <p class="text-white font-medium">Software Enginering</p>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="events" class="mt-40 lg:mt-32">
+        <div class="container">
+            <div>
+                <h1 class="text-jeruk text-center font-semibold">Our Events</h1>
+                <p class="text-2xl text-center font-bold mt-2">Upcoming Events</p>
+            </div>
+
+            <div class="mt-5 grid gap-5 md:grid-cols-2">
+                <div class="flex justify-center items-center">
+                    <div class="parent">
+                        <span class="year">
+                            <h1 class="text-center text-jeruk text-2xl font-bold">07</h1>
+                            <p class="font-semibold">March,2021</p>
+                        </span>
+                    </div>
+                    <div class="ml-5 max-w-96">
+                        <h2 class="font-bold mb-2">Cras faucibus ornare ipsum</h2>
+                        <div class="text-jeruk lg:flex lg:justify-between">
+                            <p><i class='bx bx-time-five'>9:00Am-3.00Pm</i></p>
+                            <p><i class='bx bx-map'>Surabaya,Indonesia</i></p>
+                        </div>
+                        <h3 class="mt-1 text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h3>
+                    </div>
+                </div>
+                <div class="flex justify-center items-center">
+                    <div class="parent">
+                        <span class="year">
+                            <h1 class="text-center text-jeruk text-2xl font-bold">07</h1>
+                            <p class="font-semibold">March,2021</p>
+                        </span>
+                    </div>
+                    <div class="ml-5 max-w-96">
+                        <h2 class="font-bold mb-2">Cras faucibus ornare ipsum</h2>
+                        <div class="text-jeruk lg:flex lg:justify-between">
+                            <p><i class='bx bx-time-five'>9:00Am-3.00Pm</i></p>
+                            <p><i class='bx bx-map'>Surabaya,Indonesia</i></p>
+                        </div>
+                        <h3 class="mt-1 text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h3>
+                    </div>
+                </div>
+                <div class="flex justify-center items-center">
+                    <div class="parent">
+                        <span class="year">
+                            <h1 class="text-center text-jeruk text-2xl font-bold">07</h1>
+                            <p class="font-semibold">March,2021</p>
+                        </span>
+                    </div>
+                    <div class="ml-5 max-w-96">
+                        <h2 class="font-bold mb-2">Cras faucibus ornare ipsum</h2>
+                        <div class="text-jeruk lg:flex lg:justify-between">
+                            <p><i class='bx bx-time-five'>9:00Am-3.00Pm</i></p>
+                            <p><i class='bx bx-map'>Surabaya,Indonesia</i></p>
+                        </div>
+                        <h3 class="mt-1 text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h3>
+                    </div>
+                </div>
+                <div class="flex justify-center items-center">
+                    <div class="parent">
+                        <span class="year">
+                            <h1 class="text-center text-jeruk text-2xl font-bold">07</h1>
+                            <p class="font-semibold">March,2021</p>
+                        </span>
+                    </div>
+                    <div class="ml-5 max-w-96">
+                        <h2 class="font-bold mb-2">Cras faucibus ornare ipsum</h2>
+                        <div class="text-jeruk lg:flex lg:justify-between">
+                            <p><i class='bx bx-time-five'>9:00Am-3.00Pm</i></p>
+                            <p><i class='bx bx-map'>Surabaya,Indonesia</i></p>
+                        </div>
+                        <h3 class="mt-1 text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h3>
+                    </div>
+                </div>
+                <div class="flex justify-center items-center">
+                    <div class="parent">
+                        <span class="year">
+                            <h1 class="text-center text-jeruk text-2xl font-bold">07</h1>
+                            <p class="font-semibold">March,2021</p>
+                        </span>
+                    </div>
+                    <div class="ml-5 max-w-96">
+                        <h2 class="font-bold mb-2">Cras faucibus ornare ipsum</h2>
+                        <div class="text-jeruk lg:flex lg:justify-between">
+                            <p><i class='bx bx-time-five'>9:00Am-3.00Pm</i></p>
+                            <p><i class='bx bx-map'>Surabaya,Indonesia</i></p>
+                        </div>
+                        <h3 class="mt-1 text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h3>
+                    </div>
+                </div>
+                <div class="flex justify-center items-center">
+                    <div class="parent">
+                        <span class="year">
+                            <h1 class="text-center text-jeruk text-2xl font-bold">07</h1>
+                            <p class="font-semibold">March,2021</p>
+                        </span>
+                    </div>
+                    <div class="ml-5 max-w-96">
+                        <h2 class="font-bold mb-2">Cras faucibus ornare ipsum</h2>
+                        <div class="text-jeruk lg:flex lg:justify-between">
+                            <p><i class='bx bx-time-five'>9:00Am-3.00Pm</i></p>
+                            <p><i class='bx bx-map'>Surabaya,Indonesia</i></p>
+                        </div>
+                        <h3 class="mt-1 text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h3>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flex justify-center items-center">
+                <p class="bg-jeruk py-2.5 px-5 text-white tracking-wider font-bold rounded-md mt-10 lg:mt-16 shadow-lg shadow-jeruk hover:brightness-90 active:bg-teal-400 duration-300 transition-all"><a href="#">View All Events</a></p>
+            </div>
+        </div>
+    </section>
+    
+    <section id="testimonial" class="mt-40 lg:mt-32">
+        <div class="container flex flex-wrap">
+            <div class="lg:w-1/2">
+                <h2 class="text-jeruk text-lg">testimonial</h2>
+                <h1 class="text-2xl font-bold mt-2">See What Our Client Say's</h1>
+                <p class="text-slate-400 mt-2 text-justify lg:w-[90%]">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Necessitatibus, doloribus? Eveniet, reiciendis autem sint nesciunt iure enim similique, deserunt sequi necessitatibus saepe repellat cupiditate quidem magni soluta tempora totam tenetur.</p>
+            </div>  
+
+            <div class="mt-10 bg-white p-3 shadow-2xl rounded-md w-full h-50 lg:w-1/2">
+                <div>
+                    <div class="flex items-center">
+                        <img src="img/foto8.jpg" alt="person" class="w-20 h-20 rounded-[50%] border-4 border-jeruk">
+                        <div class="ml-5">
+                            <h1 class="font-bold">Keyyy-Lenathea</h1>
+                            <p class="uppercase mt-1 text-jeruk">Student</p>
+                        </div>
+                    </div>
+                    <p class="mt-4 text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia tempora amet ratione rerum? Fugiat architecto, cum dolore nobis explicabo, tempore aliquam pariatur suscipit natus amet unde eum beatae quas neque.</p>
+                </div>            
+            </div>       
+        </div>
+    </section>
+
+    <section id="news" class="mt-40 lg:mt-32">
+        <div class="container">
+            <div class="text-center">
+                <h2 class="text-jeruk font-semibold">Our Blog</h2>
+                <h1 class="font-bold text-2xl">Latest News Feed</h1>
+            </div>
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-5">
+                <div class="mt-5">
+                    <div class="relative">
+                        <img src="img/foto9.jpg" alt="lasted" class="w-full rounded-lg">
+                        <div class="absolute bottom-0 right-[50%] translate-x-1/2 translate-y-1/2">
+                            <a href="#" class="bg-jeruk px-5 py-3 rounded-full font-bold text-white hover:bg-teal-400 duration-500 transition-all"><i class='bx bx-calendar'> 7 March,2021</i></a>
+                        </div>
+                    </div>
+                    <div class="mt-10">
+                        <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda blanditiis deserunt esse est? Earum tenetur sit dolores officia pariatur tempora!</p>
+                        <a href="#" class="uppercase text-jeruk underline mt-3 text-center block"><span><i class='bx bx-time-five' ></i></span> read more</a>
+                    </div>                 
+                </div>
+                <div class="mt-5">
+                    <div class="relative">
+                        <img src="img/foto10.jpg" alt="lasted" class="w-full rounded-lg">
+                        <div class="absolute bottom-0 right-[50%] translate-x-1/2 translate-y-1/2">
+                            <a href="#" class="bg-jeruk px-5 py-3 rounded-full font-bold text-white hover:bg-teal-400 duration-500 transition-all"><i class='bx bx-calendar'> 7 March,2021</i></a>
+                        </div>
+                    </div>
+                    <div class="mt-10">
+                        <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda blanditiis deserunt esse est? Earum tenetur sit dolores officia pariatur tempora!</p>
+                        <a href="#" class="uppercase text-jeruk underline mt-3 text-center block"><span><i class='bx bx-time-five' ></i></span> read more</a>
+                    </div>    
+
+                </div>
+                <div class="mt-5">
+                    <div class="relative">
+                        <img src="img/foto11.jpg" alt="lasted" class="w-full rounded-lg">
+                        <div class="absolute bottom-0 right-[50%] translate-x-1/2 translate-y-1/2">
+                            <a href="#" class="bg-jeruk px-5 py-3 rounded-full font-bold text-white hover:bg-teal-400 duration-500 transition-all"><i class='bx bx-calendar'> 7 March,2021</i></a>
+                        </div>
+                    </div>
+                    <div class="mt-10">
+                        <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda blanditiis deserunt esse est? Earum tenetur sit dolores officia pariatur tempora!</p>
+                        <a href="#" class="uppercase text-jeruk underline mt-3 text-center block"><span><i class='bx bx-time-five' ></i></span> read more</a>
+                    </div>                 
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contact-us" class="mt-40 lg:mt-32 bg-slate-900">
+        <div class="container grid md:grid-cols-2 lg:grid-cols-3 p-10">
+            <div>
+                <h3 class="text-xl font-bold text-white">About Us</h3>
+                <p class="w-[70%] text-justify mt-4 text-slate-500">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima ea illo consequatur quisquam quia unde. Deserunt soluta omnis necessitatibus suscipit explicabo voluptates perspiciatis iste nostrum nesciunt sequi laborum, fugit recusandae?</p>
+            </div>
+
+            <div class="mt-7 w-full">
+                <h4 class="text-xl font-bold text-white">Contact Us</h4>
+                <ul class="mt-4">
+                    <li class="mt-4"><a href="#" class="foter"><i class='bx bx-map foter-content'></i> Jl.Asia afrika,Bandung</a></li>
+                    <li class="mt-4"><a href="#" class="foter"><i class='bx bxs-phone foter-content'></i> 081234246974</a></li>
+                    <li class="mt-4"><a href="#" class="foter"><i class='bx bxl-gmail foter-content'></i> keyy_lenathea@gmail.com</a></li>
+                </ul>
+            </div>
+
+            <div class="mt-7">
+                <h4 class="text-white font-bold text-xl">Our Servise</h4>
+                <ul class="mt-4">
+                    <li class="mt-2"><a href="#" class="back">Skilled Lecturers</a></li>
+                    <li class="mt-2"><a href="#" class="back">Scholarship</a></li>
+                    <li class="mt-2"><a href="#" class="back">Online Classes</a></li>
+                    <li class="mt-2"><a href="#" class="back">Home Project</a></li>
+                    <li class="mt-2"><a href="#" class="back">Book Library</a></li>
+                    <li class="mt-2"><a href="#" class="back">24x7 Support</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <script src="src/main.js"></script>
+</body>
+</html>
